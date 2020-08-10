@@ -1,0 +1,43 @@
+{
+  "name": "imtech_theme",
+  "version": "1.0.0",
+  "description": "Imtech Ukraine corporate website Wordpress theme",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "bin": {
+    "create-gulp-starter-kit": "./bin/install.js"
+  },
+  "author": "Brainzlab",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "browser-sync": "^2.26.10",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-dependents": "^1.2.5",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.2",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs-extra": "^9.0.1",
+    "gulp-rename": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=10"
+  }
+}
